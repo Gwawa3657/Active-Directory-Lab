@@ -11,4 +11,6 @@ Renamed both Ethernet adapters so they can be identified later<img width="776" h
 
 The Internal Network got assigned an APIPA (Automatic Private IP Address)
 <img width="353" height="429" alt="Screenshot 2026-05-01 072916" src="https://github.com/user-attachments/assets/747cb866-9a26-47ac-ba32-77f745f1301f" />
-
+The manually assigned IP is 172.16.0.1 with a subnet mask of 255.255.255.0
+No need to setup a default gateway since the DC acts as its own gateway.
+The DC will also use itself as a DNS server once I install active directory, so I can use the loopback address (127.0.0.1)
