@@ -25,8 +25,9 @@ Create domain by clicking Promote this server to a domain controller
 <img width="412" height="187" alt="Screenshot 2026-05-01 075848" src="https://github.com/user-attachments/assets/07cf2e5a-ec8f-4697-b3a9-ac2aa4c7c901" />
 </p>
 Select Add a new forest and make the Root domain MyDomain.com <img width="749" height="545" alt="Screenshot 2026-05-01 080328" src="https://github.com/user-attachments/assets/d8918c3e-650c-4aca-8e09-daac3a98a6d3" />
-That domain creation gave a default administrator login. Log in and create an admin account.<img width="1132" height="846" alt="Screenshot 2026-05-01 081432" src="https://github.com/user-attachments/assets/187c2b29-f9f3-4199-8af6-77fc2e7298ef" />
-Select Active Directory Users and Computers<img width="637" height="650" alt="Screenshot 2026-05-01 081958" src="https://github.com/user-attachments/assets/b500016d-d382-40b5-b535-d76b8eeaa649" />
+
+That domain creation gave a default administrator login. Log in and create an admin account. <img width="1132" height="846" alt="Screenshot 2026-05-01 081432" src="https://github.com/user-attachments/assets/187c2b29-f9f3-4199-8af6-77fc2e7298ef" />
+Select Active Directory Users and Computers <img width="637" height="650" alt="Screenshot 2026-05-01 081958" src="https://github.com/user-attachments/assets/b500016d-d382-40b5-b535-d76b8eeaa649" />
 Right click MyDomain.com New>Organizational Unit. Name it ADMINS.<img width="749" height="527" alt="Screenshot 2026-05-01 082222" src="https://github.com/user-attachments/assets/2d7019f5-80a9-4ebe-87c1-bd2157061911" />
 I created an admin account for myself
 <p align="left">
