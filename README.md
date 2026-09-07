@@ -24,4 +24,5 @@ Create domain by clicking Promote this server to a domain controller
 <p align="left">
 <img width="412" height="187" alt="Screenshot 2026-05-01 075848" src="https://github.com/user-attachments/assets/07cf2e5a-ec8f-4697-b3a9-ac2aa4c7c901" />
 </p>
-Select Add a new forest and make the Root domain MyDomain.com
+Select Add a new forest and make the Root domain MyDomain.com <img width="749" height="545" alt="Screenshot 2026-05-01 080328" src="https://github.com/user-attachments/assets/d8918c3e-650c-4aca-8e09-daac3a98a6d3" />
+
