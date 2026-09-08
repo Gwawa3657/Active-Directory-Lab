@@ -42,6 +42,17 @@ I created an admin account for myself
 </p>
 <img width="803" height="606" alt="Screenshot 2026-05-01 082824" src="https://github.com/user-attachments/assets/1d332029-7583-449c-8643-f9cf4352b54e" />
 <br> Log out then log back in with the newly created account. <img width="1110" height="831" alt="Screenshot 2026-05-01 082923" src="https://github.com/user-attachments/assets/d76df663-f0f9-4364-90f3-54897c065240" />
+<br> Once logged in, install Remote Access to enable machines connected to the Domain Controller to access the internet through it. Enable Routing and Direct Access and VPN (RAS)
+<p align="left">
+<img width="777" height="686" alt="Screenshot 2026-05-03 172256" src="https://github.com/user-attachments/assets/56f9a9ce-50f1-4ab4-8b5a-508736454ce5" />
+</p>
+<img width="772" height="548" alt="Screenshot 2026-05-03 172613" src="https://github.com/user-attachments/assets/4baf0dda-9ab5-4bec-8d60-7cad76821c03" />
+<br> After installation, select tools and find Routing and Remote Access
+<p align="left">
+<img width="358" height="774" alt="Screenshot 2026-05-03 173603" src="https://github.com/user-attachments/assets/55f68279-859d-45ec-9554-ba4ae3336ceb" />
+</p>
+
+
 
 
 
