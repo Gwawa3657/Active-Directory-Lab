@@ -51,6 +51,31 @@ I created an admin account for myself
 <p align="left">
 <img width="358" height="774" alt="Screenshot 2026-05-03 173603" src="https://github.com/user-attachments/assets/55f68279-859d-45ec-9554-ba4ae3336ceb" />
 </p>
+<br> Right click the DC and go into configuration so select Network Address Translation (NAT)
+<p align="left">
+<img width="486" height="403" alt="Screenshot 2026-05-03 173833" src="https://github.com/user-attachments/assets/ef46bcdc-348c-4c2f-ad1b-a7492e871ea3" />
+</p>
+<br> Here we can see the Network Adapters that were named earlier
+<p align="left">
+<img width="490" height="411" alt="Screenshot 2026-05-03 174058" src="https://github.com/user-attachments/assets/eb2f22d1-89dd-45df-a40a-80c41c32812c" />
+</p>
+<br> We can confirm that Remote Access is set up through Server Manager
+<img width="1122" height="807" alt="Screenshot 2026-05-03 174258" src="https://github.com/user-attachments/assets/2d13b9a8-a339-41cb-8602-8522f12891a4" />
+<br> Now to setup a DHCP server on the DC so machines will be automatically assigned an IP Address. Go back to add roles and features but select DHCP Server.
+<img width="791" height="744" alt="Screenshot 2026-05-03 175246" src="https://github.com/user-attachments/assets/0eab5082-65bb-4c22-bca8-9974d0c3f931" />
+<br> Select tools then DHCP
+<p align="left">
+<img width="373" height="562" alt="Screenshot 2026-05-03 175446" src="https://github.com/user-attachments/assets/6dcd2d09-bc1f-4784-a704-db32fa0852ec" />
+</p>
+<br> Right click and New Scope
+<p align="left">
+<img width="501" height="535" alt="Screenshot 2026-05-03 175657" src="https://github.com/user-attachments/assets/15f0fe5b-45c7-4ec2-8046-5654c1102677" />
+</p>
+<br> The starting IP address will be 172.168.0.100 and the ending IP address is 172.168.0.200. Set Length to 24
+<p align="left">
+<img width="496" height="379" alt="Screenshot 2026-05-03 175949" src="https://github.com/user-attachments/assets/f1c7d655-b176-43cf-9396-a41362d2f0ea" />
+<img width="500" height="409" alt="Screenshot 2026-05-03 180842" src="https://github.com/user-attachments/assets/0a42e841-3676-4e41-8cc5-3be52ed983c4" />
+</p>
 
 
 
