@@ -34,13 +34,14 @@ Select Active Directory Users and Computers
 <img width="637" height="650" alt="Screenshot 2026-05-01 081958" src="https://github.com/user-attachments/assets/b500016d-d382-40b5-b535-d76b8eeaa649" />
 </p>
 Right click MyDomain.com New>Organizational Unit. Name it ADMINS. <img width="749" height="527" alt="Screenshot 2026-05-01 082222" src="https://github.com/user-attachments/assets/2d7019f5-80a9-4ebe-87c1-bd2157061911" />
+<br>
 I created an admin account for myself
 <p align="left">
 <img width="428" height="365" alt="Screenshot 2026-05-01 082552" src="https://github.com/user-attachments/assets/09f2fbb2-b245-4152-ad34-3d8ac77fd13a" />
 <img width="426" height="364" alt="Screenshot 2026-05-01 082643" src="https://github.com/user-attachments/assets/63c27056-3b5a-428a-8a64-f67eb31fd63e" />
 </p>
 <img width="803" height="606" alt="Screenshot 2026-05-01 082824" src="https://github.com/user-attachments/assets/1d332029-7583-449c-8643-f9cf4352b54e" />
-Log out then log back in with the newly created account. <img width="1110" height="831" alt="Screenshot 2026-05-01 082923" src="https://github.com/user-attachments/assets/d76df663-f0f9-4364-90f3-54897c065240" />
+<br> Log out then log back in with the newly created account. <img width="1110" height="831" alt="Screenshot 2026-05-01 082923" src="https://github.com/user-attachments/assets/d76df663-f0f9-4364-90f3-54897c065240" />
 
 
 
