@@ -62,7 +62,9 @@ I created an admin account for myself
 <br> We can confirm that Remote Access is set up through Server Manager
 <img width="1122" height="807" alt="Screenshot 2026-05-03 174258" src="https://github.com/user-attachments/assets/2d13b9a8-a339-41cb-8602-8522f12891a4" />
 <br> Now to setup a DHCP server on the DC so machines will be automatically assigned an IP Address. Go back to add roles and features but select DHCP Server.
+<p align="left">
 <img width="791" height="744" alt="Screenshot 2026-05-03 175246" src="https://github.com/user-attachments/assets/0eab5082-65bb-4c22-bca8-9974d0c3f931" />
+</p>
 <br> Select tools then DHCP
 <p align="left">
 <img width="373" height="562" alt="Screenshot 2026-05-03 175446" src="https://github.com/user-attachments/assets/6dcd2d09-bc1f-4784-a704-db32fa0852ec" />
