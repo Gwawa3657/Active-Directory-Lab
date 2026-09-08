@@ -78,6 +78,59 @@ I created an admin account for myself
 <img width="496" height="379" alt="Screenshot 2026-05-03 175949" src="https://github.com/user-attachments/assets/f1c7d655-b176-43cf-9396-a41362d2f0ea" />
 <img width="500" height="409" alt="Screenshot 2026-05-03 180842" src="https://github.com/user-attachments/assets/0a42e841-3676-4e41-8cc5-3be52ed983c4" />
 </p>
+<br> The DC is essentially the gateway so add the Internal IP(Internal Network Adapter) and select add.
+<p align="left">
+<img width="504" height="406" alt="Screenshot 2026-05-03 181107" src="https://github.com/user-attachments/assets/1d47994a-8e91-4e5b-ab68-666aee332819" />
+</p>
+<br> The Dc is also the DNS server so select next
+<p align="left">
+<img width="503" height="411" alt="Screenshot 2026-05-03 181224" src="https://github.com/user-attachments/assets/d242b55e-53c9-4691-92fe-75d3531ac861" />
+<img width="500" height="409" alt="Screenshot 2026-05-03 181311" src="https://github.com/user-attachments/assets/89f68f32-8d78-49fc-807d-6b66888076fa" />
+</p>
+<br> Right click the DC and then Authorize. Then right click IPv4 and refresh. The DHCP server is configured.
+<p align="left">
+<img width="576" height="529" alt="Screenshot 2026-05-03 181421" src="https://github.com/user-attachments/assets/9a3dafc0-7b37-4528-ba0d-39ec8ff8ba9d" />
+<img width="271" height="173" alt="Screenshot 2026-05-03 181621" src="https://github.com/user-attachments/assets/25e91f0a-64f3-46dc-b490-b45ee5c5e5e6" />
+</p>
+<br> The DC is done at the moment so set up a Windows 11 client to join the domain. Create a new Virtual Machine (VM) and make sure the OS version is set to Pro
+<br> In the VM manager change adapter 1 to Internal Network instead of NAT.
+<p align="left">
+<img width="759" height="502" alt="Screenshot 2026-05-03 205032" src="https://github.com/user-attachments/assets/47aa4959-a1fd-43e9-a27a-be5efb9bfbec" />
+</p>
+<br> Windows 11 won't let you proceed with the installation without being connected to a network.
+<br> Shift+F10 then type the command oobe\bypassnro and press enter.
+<br> This command lets you bypass that.
+<p align="left">
+<img width="996" height="663" alt="Screenshot 2026-05-03 212933" src="https://github.com/user-attachments/assets/bd618107-fdc0-4620-b167-96f14e55b404" />
+</p>
+<br> Select I don't have internet and continue with the setup.
+<p align="left">
+<img width="983" height="726" alt="Screenshot 2026-05-03 213358" src="https://github.com/user-attachments/assets/ecf82bb6-4189-431a-a913-bb182e2a3acd" />
+</p>
+<br> Go to System > About then Domain or workgroup
+<p align="left">
+<img width="774" height="613" alt="Screenshot 2026-05-03 233700" src="https://github.com/user-attachments/assets/cb283a65-89e8-4278-a92c-f0246d9c1359" />
+</p>
+<br> Select change then check the circle for domain and enter the DC name.
+<p align="left">
+<img width="397" height="452" alt="Screenshot 2026-05-03 234805" src="https://github.com/user-attachments/assets/c53d22c6-4629-4fa4-a180-897755a4c634" />
+<img width="311" height="373" alt="Screenshot 2026-05-03 235344" src="https://github.com/user-attachments/assets/88dabe25-fd77-46f8-96d2-a0f681c6e64f" />
+</p>
+<br> Log in with the admin account that was created earlier.
+<p align="left">
+<img width="435" height="365" alt="Screenshot 2026-05-03 235514" src="https://github.com/user-attachments/assets/d85efa7b-d850-4589-a671-cd0105fac21e" />
+</p>
+<br> After a short wait the client machine has joined. Restart the client.'
+<p align="left">
+<img width="292" height="139" alt="Screenshot 2026-05-03 235608" src="https://github.com/user-attachments/assets/0ff3773d-afc2-4e2f-8063-dae031f4145b" />
+</p>
+<br> Can verify the w11 client is in the domain by going back to the DC. 
+<br> Search Active Directory Users and Computers.
+<br> Go to computers and the w11 client is there.
+<p align="left">
+<img width="741" height="520" alt="Screenshot 2026-05-03 235937" src="https://github.com/user-attachments/assets/5d101607-50a4-454c-bcbd-6ed321955b06" />
+</p>
+## Generating Users with PowerShell
 
 
 
