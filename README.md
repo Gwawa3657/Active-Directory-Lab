@@ -130,7 +130,7 @@ I created an admin account for myself
 <p align="left">
 <img width="741" height="520" alt="Screenshot 2026-05-03 235937" src="https://github.com/user-attachments/assets/5d101607-50a4-454c-bcbd-6ed321955b06" />
 </p>
-## Generating Users with PowerShell
+# Generating Users with PowerShell
 
 
 
